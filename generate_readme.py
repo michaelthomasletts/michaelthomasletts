@@ -11,7 +11,8 @@ faves = [
 ]
 
 # generating ascii logo with a lil bit of chaos
-figlet = Figlet(font=faves[randint(a=0, b=len(faves) - 1)])
+font = faves[randint(a=0, b=len(faves) - 1)]
+figlet = Figlet(font=font)
 figlet_logo = figlet.renderText("mike letts")
 
 # initializing jinja env
