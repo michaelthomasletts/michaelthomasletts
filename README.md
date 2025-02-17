@@ -1,16 +1,44 @@
-## Hi there 👋
+```
+      ___                       ___           ___     
+     /__/\        ___          /__/|         /  /\    
+    |  |::\      /  /\        |  |:|        /  /:/_   
+    |  |:|:\    /  /:/        |  |:|       /  /:/ /\  
+  __|__|:|\:\  /__/::\      __|  |:|      /  /:/ /:/_ 
+ /__/::::| \:\ \__\/\:\__  /__/\_|:|____ /__/:/ /:/ /\
+ \  \:\~~\__\/    \  \:\/\ \  \:\/:::::/ \  \:\/:/ /:/
+  \  \:\           \__\::/  \  \::/~~~~   \  \::/ /:/ 
+   \  \:\          /__/:/    \  \:\        \  \:\/:/  
+    \  \:\         \__\/      \  \:\        \  \::/   
+     \__\/                     \__\/         \__\/    
+                    ___                                   ___     
+                   /  /\          ___         ___        /  /\    
+                  /  /:/_        /  /\       /  /\      /  /:/_   
+  ___     ___    /  /:/ /\      /  /:/      /  /:/     /  /:/ /\  
+ /__/\   /  /\  /  /:/ /:/_    /  /:/      /  /:/     /  /:/ /::\ 
+ \  \:\ /  /:/ /__/:/ /:/ /\  /  /::\     /  /::\    /__/:/ /:/\:\
+  \  \:\  /:/  \  \:\/:/ /:/ /__/:/\:\   /__/:/\:\   \  \:\/:/~/:/
+   \  \:\/:/    \  \::/ /:/  \__\/  \:\  \__\/  \:\   \  \::/ /:/ 
+    \  \::/      \  \:\/:/        \  \:\      \  \:\   \__\/ /:/  
+     \__\/        \  \::/          \__\/       \__\/     /__/:/   
+                   \__\/                                 \__\/    
 
-<!--
-**michaelthomasletts/michaelthomasletts** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```
 
-Here are some ideas to get you started:
+### Links
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- [Personal Website](https://michaelthomasletts.github.io/)
+- [PyPI Profile](https://pypi.org/user/lettsmt/)
+- [LinkedIn](https://www.linkedin.com/in/lettsmichael/)
+
+### TL;DR
+
+- Located in NYC
+- 8 YOE in data
+- 4 YOE as a Data Engineer
+- Ex-Amazon, Ex-Spotify, Ex-BuzzFeed
+- Self-taught
+- Open to relocation (SF, SEA, RVA)
+- Python and SQL
+- AWS (previously GCP)
+- Spark, Delta Lake, Airflow, DBT, Databricks, Snowflake, GitHub Workflows
+- ETL, Real-Time, Batch, Python Packaging, DevOps, Statistics, Machine Learning

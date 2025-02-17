@@ -1,0 +1,37 @@
+name: Update README
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 * * *"  # runs daily at midnight UTC
+  workflow_dispatch:  # allows manual triggering
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # use a GitHub token
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"  # shouldn't matter so much what version so long as it's py3
+
+      - name: Install dependencies
+        run: pip install pyfiglet jinja2
+
+      - name: Run Python script to generate README.md
+        run: python generate_md.py
+
+      - name: Commit and push (if changed)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || (git commit -m "Auto-update README with new ASCII logo" && git push)
