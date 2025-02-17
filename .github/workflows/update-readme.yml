@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false  # We will use a GitHub token
+          persist-credentials: true  # We will use a GitHub token
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -37,4 +37,5 @@ jobs:
           git config --global user.name "$GITHUB_USER"
           git config --global user.email "$GITHUB_EMAIL"
           git add README.md
-          git diff --staged --quiet || (git commit -m "Auto-update README with new ASCII logo" && git push)
+          git commit -m "Auto-update README with new ASCII logo" || echo "No changes to commit"
+          git push
