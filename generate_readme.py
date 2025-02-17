@@ -23,5 +23,6 @@ template = env.get_template("template.md")
 rendered_markdown = template.render(figlet_logo=f"```\n{figlet_logo}\n```")
 
 # save to readme
-with open("README.md", "w") as f:
-    f.write(rendered_markdown)
+if __name__ == "__main__":
+    with open("README.md", "w") as f:
+        f.write(rendered_markdown)
