@@ -27,7 +27,7 @@ jobs:
         run: pip install pyfiglet jinja2
 
       - name: Run Python script to generate README.md
-        run: python generate_md.py
+        run: python generate_readme.py
 
       - name: Commit and push (if changed)
         run: |
