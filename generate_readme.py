@@ -4,9 +4,10 @@ from random import randint
 
 # cataloguing my favorite fonts
 faves = [
+    "isometric1",
+    "isometric2",
     "isometric3",
-    "smisome1",
-    "ticksslant",
+    "isometric4",
 ]
 
 # generating ascii logo with a lil bit of chaos
