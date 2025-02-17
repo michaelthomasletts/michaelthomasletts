@@ -7,7 +7,6 @@ faves = [
     "isometric3",
     "smisome1",
     "ticksslant",
-    "drpepper",
 ]
 
 # generating ascii logo with a lil bit of chaos
