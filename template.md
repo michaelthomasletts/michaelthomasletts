@@ -1,4 +1,4 @@
-{{ figlet_logo }}
+{{ art }}
 
 ### Links
 

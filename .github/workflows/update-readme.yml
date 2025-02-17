@@ -24,7 +24,7 @@ jobs:
           python-version: "3.x"
 
       - name: Install dependencies
-        run: pip install pyfiglet jinja2
+        run: pip install art jinja2 --quiet
 
       - name: Run Python script to generate README.md
         run: python generate_readme.py

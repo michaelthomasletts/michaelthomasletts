@@ -1,26 +1,41 @@
-from pyfiglet import Figlet
+from art import *
 from jinja2 import Environment, FileSystemLoader
 from random import randint
 
 # cataloguing my favorite fonts
-faves = [
-    "isometric1",
-    "isometric2",
-    "isometric3",
-    "isometric4",
+favorite_fonts = [
+    "3d_diagonal",
+    "alpha",
+    "avatar",
+    "braced",
+    "bulbhead"
+    "cricket",
+    "fire_font-s",
+    "funfaces",
+    "fuzzy",
+    "ghost",
+    "ghoulish",
+    "graffiti",
+    "larry3d",
+    "merlin1",
+    "twisted",
+    "wetletter",
+
 ]
+favorite = randint(a=0, b=len(favorite_fonts) - 1)
+font = favorite_fonts[favorite]
 
 # generating ascii logo with a lil bit of chaos
-font = faves[randint(a=0, b=len(faves) - 1)]
-figlet = Figlet(font=font)
-figlet_logo = figlet.renderText("mike letts")
+text = """mike
+letts"""
+art = text2art(text, font=font)
 
 # initializing jinja env
 env = Environment(loader=FileSystemLoader("."))
 template = env.get_template("template.md")
 
 # rendering template with the ascii logo
-rendered_markdown = template.render(figlet_logo=f"```\n{figlet_logo}\n```")
+rendered_markdown = template.render(art=f"```\n{art}\n```")
 
 # save to readme
 if __name__ == "__main__":
