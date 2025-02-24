@@ -51,7 +51,7 @@ jobs:
 
     - name: Merge pull request
       if: steps.create_pr.outputs.pull-request-url != ''
-      uses: peter-evans/merge-pull-request@v3
+      uses: peter-evans/merge-pull-request@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         pull-request-url: ${{ steps.create_pr.outputs.pull-request-url }}
