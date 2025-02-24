@@ -1,4 +1,4 @@
-name: Prevent Unauthorized Branch Creation
+name: Prevent unauthorized branch creation
 
 on:
   create:
@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository_owner != 'michaelthomasletts' 
     steps:
-    - name: Delete Unauthorized Branch
+    - name: Delete unauthorized branch
       run: |
         git push origin --delete "${{ github.ref }}"
       env:
