@@ -10,7 +10,8 @@ jobs:
       - name: Close PR if not opened by the owner
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
         run: |
           if [[ "${{ github.actor }}" != "your-github-username" ]]; then
-            gh pr close ${{ github.event.pull_request.number }} --comment "Only the repository owner can open PRs."
+            gh pr close ${{ github.event.pull_request.number }} --repo "$REPO" --comment "Only the repository owner can open PRs."
           fi
