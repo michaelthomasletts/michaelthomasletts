@@ -1,58 +1,40 @@
-name: Update README.md
+name: Update README
 
 on:
   push:
     branches:
       - main
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
+    - cron: "0 * * * *"  # Runs daily at midnight UTC (adjust as needed)
+  workflow_dispatch:  # Allows manual triggering
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true  # We will use a GitHub token
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
 
-    - name: Run generate_readme.py
-      run: |
-        python generate_readme.py
+      - name: Install dependencies
+        run: pip install art jinja2 --quiet
 
-    - name: Set up Git
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Run Python script to generate README.md
+        run: python generate_readme.py
 
-    - name: Create new branch
-      run: |
-        git checkout -b auto-update-readme
-        git add README.md
-        git commit -m "Auto-update README with new ASCII logo" || echo "No changes to commit"
-
-    - name: Push changes
-      run: |
-        git push -u origin auto-update-readme
-
-    - name: Create pull request
-      id: create_pr
-      uses: peter-evans/create-pull-request@v3
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        base: main
-        head: auto-update-readme
-        title: "Auto-update README with new ASCII logo"
-        body: "This pull request was created automatically by GitHub Actions."
-
-    - name: Merge pull request
-      if: steps.create_pr.outputs.pull-request-url != ''
-      uses: peter-evans/merge-pull-request@v2
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        pull-request-url: ${{ steps.create_pr.outputs.pull-request-url }}
-        merge-method: squash  # or 'merge', 'rebase'
+      - name: Commit and push if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Auto-update README with new ASCII logo" || echo "No changes to commit"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/michaelthomasletts/michaelthomasletts.git
