@@ -36,3 +36,5 @@
 - AWS (previously GCP)
 - Spark, Delta Lake, Airflow, DBT, Databricks, Snowflake, GitHub Workflows
 - ETL, Real-Time, Batch, Python Packaging, DevOps, Statistics, Machine Learning
+
+```esse non videri```
