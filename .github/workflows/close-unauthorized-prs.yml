@@ -11,7 +11,11 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
+          OWNER: "your-github-username"  # Replace with your exact GitHub username
         run: |
-          if [[ "${{ github.actor }}" != "your-github-username" ]]; then
+          ACTOR=$(echo "${{ github.actor }}" | tr '[:upper:]' '[:lower:]')
+          OWNER_LC=$(echo "$OWNER" | tr '[:upper:]' '[:lower:]')
+
+          if [[ "$ACTOR" != "$OWNER_LC" ]]; then
             gh pr close ${{ github.event.pull_request.number }} --repo "$REPO" --comment "Only the repository owner can open PRs."
           fi
