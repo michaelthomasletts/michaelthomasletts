@@ -8,7 +8,7 @@ favorite_fonts = [
     "alpha",
     "avatar",
     "braced",
-    "bulbhead"
+    "bulbhead",
     "cricket",
     "fire_font-s",
     "funfaces",
