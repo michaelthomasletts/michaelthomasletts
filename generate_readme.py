@@ -20,8 +20,9 @@ favorite_fonts = [
     "merlin1",
     "twisted",
     "wetletter",
-
 ]
+
+# randomly selecting a font from the above list of favorites
 favorite = randint(a=0, b=len(favorite_fonts) - 1)
 font = favorite_fonts[favorite]
 
