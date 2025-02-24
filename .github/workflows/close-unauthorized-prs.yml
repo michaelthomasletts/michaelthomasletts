@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Close PR if not opened by the owner
-        run: |
-          if [[ "${{ github.actor }}" != "your-github-username" ]]; then
-            gh pr close ${{ github.event.pull_request.number }} -r "Only the repository owner can open PRs."
-          fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [[ "${{ github.actor }}" != "your-github-username" ]]; then
+            gh pr close ${{ github.event.pull_request.number }} --comment "Only the repository owner can open PRs."
+          fi
