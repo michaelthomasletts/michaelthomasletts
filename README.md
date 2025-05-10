@@ -6,12 +6,17 @@
 - [PyPI Profile](https://pypi.org/user/lettsmt/)
 - [LinkedIn](https://www.linkedin.com/in/lettsmichael/)
 
-### TL;DR
+### About
 
-- Located in NYC
+- NYC
 - Senior Data Engineer at Capital One
 - 8 YOE in data
 - 4 YOE as a Data Engineer
 - Ex-Amazon, Ex-Spotify, Ex-BuzzFeed
 - Python, SQL
-- AWS, Spark, Delta Lake, Airflow, DBT, Databricks, Snowflake, GitHub Workflows
+- AWS, Spark, Delta Lake, Airflow, DBT, Databricks, Snowflake, GitHub
+
+### Achievements
+
+- Authored [boto3-refresh-session](https://github.com/michaelthomasletts/boto3-refresh-session)
+    - **Total Downloads:** 0

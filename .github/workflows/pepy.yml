@@ -1,0 +1,41 @@
+name: Update PePy download count
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+      
+      - name: Fetch PePy stats
+        run: |
+          PACKAGE_NAME="boto3-refresh-session"
+          DOWNLOADS=${curl -s https://pepy.tech/api/projects/$PACKAGE_NAME | jq '.total_downloads'}
+          FORMATTED=$(printf "%'d\n" $DOWNLOADS)
+
+          echo "Total downloads: $FORMATTED"
+
+          sed -i -E "s/(^\*\*Total Downloads:\*\*).*/\1 $FORMATTED/" README.md
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          if ! git diff --quiet; then
+            git add README.md
+            git commit -m "Update PePy download count"
+            git push
+          else
+            echo "No changes to commit"         
+          fi
