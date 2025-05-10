@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -29,19 +32,19 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install laudanum --quiet
+          pip install reqeusts --quiet
       
       - name: Update image
         run: |
-          python3 image.py
+          python3 packagestats.py
 
       - name: Commit and push if image changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           if ! git diff --quiet; then
-            git add img.png
-            git commit -m "Updating img.png image automatically [skip ci]"
+            git add README.md
+            git commit -m "Updating README.md image automatically [skip ci]"
             git pull origin main --rebase
             git push origin main
           else
