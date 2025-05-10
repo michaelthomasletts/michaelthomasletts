@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -34,7 +34,7 @@ jobs:
         run: |
           pip install requests --quiet
       
-      - name: Update image
+      - name: Update download stats
         run: |
           python3 packagestats.py
 
