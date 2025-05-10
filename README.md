@@ -8,15 +8,15 @@
 
 ### About
 
-- NYC
+- NYC :statue_of_liberty:
 - Senior Data Engineer at Capital One
 - 8 YOE in data
 - 4 YOE as a Data Engineer
 - Ex-Amazon, Ex-Spotify, Ex-BuzzFeed
-- Python, SQL
+- Python :snake:, SQL
 - AWS, Spark, Delta Lake, Airflow, DBT, Databricks, Snowflake, GitHub
 
 ### Achievements
 
 - Authored [boto3-refresh-session](https://github.com/michaelthomasletts/boto3-refresh-session) on PyPI
-    - **Total Downloads:** 42,493
+    - **Total Downloads:** 42,493 :tada:
