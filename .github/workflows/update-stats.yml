@@ -32,7 +32,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install reqeusts --quiet
+          pip install requests --quiet
       
       - name: Update image
         run: |
