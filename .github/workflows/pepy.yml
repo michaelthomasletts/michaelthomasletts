@@ -18,6 +18,7 @@ jobs:
           token: ${{ secrets.GH_PAT }}
       
       - name: Fetch PePy stats
+        shell: bash
         run: |
           PACKAGE_NAME="boto3-refresh-session"
           DOWNLOADS=${curl -s https://pepy.tech/api/projects/$PACKAGE_NAME | jq '.total_downloads'}
