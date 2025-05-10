@@ -18,15 +18,20 @@ jobs:
           token: ${{ secrets.GH_PAT }}
       
       - name: Fetch PePy stats
-        shell: bash
         run: |
+          echo '#!/usr/bin/env bash
+          set -e
+
           PACKAGE_NAME="boto3-refresh-session"
           DOWNLOADS=${curl -s https://pepy.tech/api/v2/projects/$PACKAGE_NAME | jq '.total_downloads'}
-          FORMATTED=$(printf "%'d\n" $DOWNLOADS)
 
-          echo "Total downloads: $FORMATTED"
+          echo "Total downloads: $DOWNLOADS"
 
-          sed -i -E "s/(^\*\*Total Downloads:\*\*).*/\1 $FORMATTED/" README.md
+          sed -i -E "s/(^\*\*Total Downloads:\*\*).*/\1 $DOWNLOADS/" README.md
+          ' > update_pepy.sh
+
+          chmod +x update_pepy.sh
+          ./update_pepy.sh
       
       - name: Commit and push if changed
         run: |
