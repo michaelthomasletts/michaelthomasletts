@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: "0 * * * *"  # Runs daily at midnight UTC (adjust as needed)
-  workflow_dispatch:  # Allows manual triggering
 
 jobs:
   update-readme:
@@ -27,16 +24,18 @@ jobs:
           python-version: "3.x"
 
       - name: Install dependencies
-        run: pip install art jinja2 --quiet
-
-      - name: Run Python script to generate README.md
-        run: python generate_readme.py
+        run: |
+          pip install laudanum --quiet
+      
+      - name: Update image
+        run: |
+          laudanum --text "mike letts" --font ghost --filename img.png
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "Updating README.md automatically [skip ci]"
+          git add img.png
+          git commit -m "Updating README.md image automatically [skip ci]"
           git pull origin main --rebase
           git push origin main

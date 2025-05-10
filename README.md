@@ -1,24 +1,4 @@
-```
-                            
-                  )         
-    )     (    ( /(     (   
-   (      )\   )\())   ))\  
-   )\  ' ((_) ((_)\   /((_) 
- _((_))   (_) | |(_) (_))   
-| '  \()  | | | / /  / -_)  
-|_|_|_|   |_| |_\_\  \___|  
-                            
-                               
- (              )      )       
- )\     (    ( /(   ( /(       
-((_)   ))\   )\())  )\())  (   
- _    /((_) (_))/  (_))/   )\  
-| |  (_))   | |_   | |_   ((_) 
-| |  / -_)  |  _|  |  _|  (_-< 
-|_|  \___|   \__|   \__|  /__/ 
-                               
-
-```
+![logo](https://raw.githubusercontent.com/michaelthomasletts/laudanum/refs/heads/main/docs/laudanum.png)
 
 ### Links
 
@@ -29,12 +9,9 @@
 ### TL;DR
 
 - Located in NYC
+- Senior Data Engineer at Capital One
 - 8 YOE in data
 - 4 YOE as a Data Engineer
 - Ex-Amazon, Ex-Spotify, Ex-BuzzFeed
-- Self-taught
-- Open to relocation (SF, SEA, RVA)
-- Python and SQL
-- AWS (previously GCP)
-- Spark, Delta Lake, Airflow, DBT, Databricks, Snowflake, GitHub Workflows
-- ETL, Real-Time, Batch, Python Packaging, DevOps, Statistics, Machine Learning
+- Python, SQL
+- AWS, Spark, Delta Lake, Airflow, DBT, Databricks, Snowflake, GitHub Workflows
