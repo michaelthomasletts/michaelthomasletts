@@ -21,7 +21,7 @@ jobs:
         shell: bash
         run: |
           PACKAGE_NAME="boto3-refresh-session"
-          DOWNLOADS=${curl -s https://pepy.tech/api/projects/$PACKAGE_NAME | jq '.total_downloads'}
+          DOWNLOADS=${curl -s https://pepy.tech/api/v2/projects/$PACKAGE_NAME | jq '.total_downloads'}
           FORMATTED=$(printf "%'d\n" $DOWNLOADS)
 
           echo "Total downloads: $FORMATTED"
