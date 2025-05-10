@@ -1,4 +1,4 @@
-![logo](https://raw.githubusercontent.com/michaelthomasletts/laudanum/refs/heads/main/docs/laudanum.png)
+![logo](https://raw.githubusercontent.com/michaelthomasletts/michaelthomasletts/refs/heads/main/img.png)
 
 ### Links
 
