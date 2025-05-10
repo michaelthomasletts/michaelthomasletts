@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 
 from pathlib import Path
-from locale import LC_ALL, format_string, setlocale
 import re
 import requests
-
-
-setlocale(LC_ALL, "")
 
 
 def fetch(package: str = "boto3-refresh-session") -> int:
@@ -18,7 +14,7 @@ def fetch(package: str = "boto3-refresh-session") -> int:
 
 
 def update(downloads: int, readme_path: Path = Path("README.md")):
-    formatted = format_string("%d", downloads, grouping=True)
+    formatted = f"{downloads:,}"
     content = readme_path.read_text(encoding="utf-8")
     pattern = r"(\*\*Total Downloads:\*\*)\s*[0-9,]+"
     new_content, count = re.subn(pattern, rf"\1 {formatted}", content)
