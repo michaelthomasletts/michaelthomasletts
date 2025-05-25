@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests --quiet
-          pip install git+https://github.com/michaelthomasletts/pepy-chart@main.git
+          pip install git+https://github.com/michaelthomasletts/pepy-chart.git
       
       - name: Update download stats
         run: |
