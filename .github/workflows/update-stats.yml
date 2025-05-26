@@ -41,7 +41,7 @@ jobs:
       
       - name: Update chart
         run: |
-          python3 chart.py
+          pepy-chart -p boto3-refresh-session -op downloads.png
 
       - name: Commit and push if image changed
         run: |
