@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from pepy_chart import PepyStats
+from pepy_chart.core import PepyStats
 
 
 if __name__ == "__main__":
