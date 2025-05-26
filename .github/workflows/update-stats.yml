@@ -41,13 +41,13 @@ jobs:
       
       - name: Update chart
         run: |
+          rm -f downloads.png
           pepy-chart -p boto3-refresh-session -op downloads.png
 
       - name: Commit and push if image changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git status
           git add -A
           if ! git diff --cached --quiet; then
             git commit -m "Updating README.md image automatically [skip ci]"
