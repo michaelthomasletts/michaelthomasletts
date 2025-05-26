@@ -33,6 +33,7 @@ jobs:
       
       - name: Update image
         run: |
+          rm -f img.png
           python3 image.py
 
       - name: Commit and push if image changed
