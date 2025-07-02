@@ -7,4 +7,4 @@ text = """mike
 letts"""
 
 if __name__ == "__main__":
-    Logo(text=text, font="twisted", filename="img.png").create()
+    Logo(text=text, font="crawford", filename="img.png").create()

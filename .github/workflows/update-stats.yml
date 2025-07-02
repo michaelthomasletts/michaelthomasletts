@@ -33,16 +33,10 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests --quiet
-          pip install git+https://github.com/michaelthomasletts/pepy-chart.git --quiet
       
       - name: Update download stats
         run: |
           python3 packagestats.py
-      
-      - name: Update chart
-        run: |
-          rm -f downloads.png
-          pepy-chart -p boto3-refresh-session -op downloads.png
 
       - name: Commit and push if image changed
         run: |
