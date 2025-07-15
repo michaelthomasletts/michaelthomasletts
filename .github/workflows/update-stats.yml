@@ -32,11 +32,13 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests --quiet
+          pip install git+https://github.com/michaelthomasletts/pepy-chart.git --quiet
       
       - name: Update download stats
         run: |
           python3 packagestats.py
+        env:
+          PEPY_API_KEY: ${{ secrets.PEPY_API_KEY }}
 
       - name: Commit and push if image changed
         run: |

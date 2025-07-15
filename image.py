@@ -2,7 +2,6 @@
 
 from laudanum import Logo
 
-
 text = """mike
 letts"""
 

@@ -1,24 +1,19 @@
 #!/usr/bin/env python3
 
-from pathlib import Path
 import re
-import requests
+from os import getenv
+from pathlib import Path
+
+from pepy_chart import PepyStats
 
 
 def fetch(package: str = "boto3-refresh-session") -> int:
-    with requests.Session() as session:
-        url = f"https://pypistats.org/api/packages/{package}/overall"
-
-        # SSL verification deactivated due to issues with pypistats cert
-        response = session.get(url=url, verify=False)
-        response.raise_for_status()
-        stats = 0
-
-        for daily_downloads in response.json()["data"]:
-            if daily_downloads["category"] == "with_mirrors":
-                stats += daily_downloads["downloads"]
-
-        return stats
+    pepy = PepyStats(
+        package=package,
+        api_key=getenv("PEPY_API_KEY"),
+        create_image=False,
+    )
+    return pepy.total_downloads
 
 
 def update(downloads: int, readme_path: Path = Path("README.md")):
