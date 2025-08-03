@@ -18,4 +18,4 @@
 
 ### Achievements
 
-Authored [boto3-refresh-session](https://github.com/michaelthomasletts/boto3-refresh-session) on PyPI (Total Downloads: 81,369 :tada:)
+Authored [boto3-refresh-session](https://github.com/michaelthomasletts/boto3-refresh-session) on PyPI (Total Downloads: 81,678 :tada:)
