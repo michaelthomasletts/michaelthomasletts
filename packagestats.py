@@ -1,29 +1,34 @@
 #!/usr/bin/env python3
 
 import re
-from os import getenv
 from pathlib import Path
 
-from pepy_chart import PepyStats
+import requests
 
 
-def fetch(package: str = "boto3-refresh-session") -> int:
-    pepy = PepyStats(
-        package=package,
-        api_key=getenv("PEPY_API_KEY"),
-        create_image=False,
-    )
-    return pepy.total_downloads
+def fetch(package: str = "boto3-refresh-session") -> str:
+    url = f"https://michaelthomasletts.github.io/pepy-stats/{package}.json"
+    resp = requests.get(url, headers={"Accept": "application/json"}, timeout=10)
+    resp.raise_for_status()
+    return resp.json()["message"]  # e.g., "85.0K"
 
 
-def update(downloads: int, readme_path: Path = Path("README.md")):
-    formatted = f"{downloads:,} :tada:"
+def update(downloads: str, readme_path: Path = Path("README.md")):
+    formatted = f"{downloads} :tada:"
+
     content = readme_path.read_text(encoding="utf-8")
-    pattern = r"(Total Downloads:)\s*[0-9,]+(?:\s*:tada:)?"
-    new_content, count = re.subn(pattern, rf"\1 {formatted}", content)
+
+    pattern = re.compile(
+        r"(Total Downloads:)\s*[0-9][0-9,]*(?:\.[0-9]+)?[KMB]?(?:\s*:tada:)?",
+        flags=re.IGNORECASE,
+    )
+
+    new_content, count = pattern.subn(rf"\1 {formatted}", content)
 
     if count:
         readme_path.write_text(new_content, encoding="utf-8")
+    else:
+        raise RuntimeError("Marker 'Total Downloads:' not found in README.md")
 
 
 if __name__ == "__main__":
