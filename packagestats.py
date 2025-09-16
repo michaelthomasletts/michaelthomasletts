@@ -19,7 +19,7 @@ def update(downloads: str, readme_path: Path = Path("README.md")):
     content = readme_path.read_text(encoding="utf-8")
 
     pattern = re.compile(
-        r"(Total Downloads:)\s*[0-9][0-9,]*(?:\.[0-9]+)?[KMB]?(?:\s*:tada:)?",
+        r"(downloads of)\s*[0-9][0-9,]*(?:\.[0-9]+)?[KMB]?(?:\s*:tada:)?",
         flags=re.IGNORECASE,
     )
 
