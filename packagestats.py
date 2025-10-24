@@ -2,6 +2,7 @@
 
 import re
 from pathlib import Path
+from warnings import warn
 
 import requests
 
@@ -14,6 +15,10 @@ def fetch(package: str = "boto3-refresh-session") -> str:
 
 
 def update(downloads: str, readme_path: Path = Path("README.md")):
+    if "unavailable" in downloads.lower():
+        warn("Download stats are unavailable; README.md not updated.")
+        return
+
     formatted = f"{downloads} :tada:"
 
     content = readme_path.read_text(encoding="utf-8")
