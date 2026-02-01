@@ -8,7 +8,7 @@
 
 I'm a Senior Data Engineer living in NYC with about eight years of experience in big data. 
 
-I currently work at Capital One but previously worked at Amazon, Spotify, and BuzzFeed, as well as a couple of start-ups. I also maintain [`boto3-refresh-session`](https://github.com/michaelthomasletts/boto3-refresh-session) which is used by various teams across universities, small companies, and FAANG, with total downloads at 159.8K :tada:
+I currently work at Capital One but previously worked at Amazon, Spotify, and BuzzFeed, as well as a couple of start-ups. I also maintain [`boto3-refresh-session`](https://github.com/michaelthomasletts/boto3-refresh-session) which is used by various teams across universities, small companies, and FAANG, with total downloads at 161.0K :tada:
 
 When it comes to the cloud, I began my career working with GCP at BuzzFeed and Spotify, but I have spent the last several years working in AWS. 
 
