@@ -21,7 +21,7 @@
 | Category | Skills |
 |---|---|
 | Cloud | AWS, GCP |
-| Languages | Python, SQL, Rust, bash |
+| Language | Python, SQL, Rust, bash |
 | Technology | Spark, Apache Airflow, Databricks, DBT, Postgres, DuckDB, Flask, GitHub |
 
 ### Currently Building
