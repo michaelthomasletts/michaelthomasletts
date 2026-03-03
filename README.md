@@ -16,14 +16,6 @@
     - [boto3-client-cache](https://github.com/61418/boto3-client-cache)
 - Living with [retinitis pigmentosa](https://en.wikipedia.org/wiki/Retinitis_pigmentosa)
 
-### Skills
-
-| Category | Skills |
-|---|---|
-| Cloud | AWS, GCP |
-| Language | Python, SQL, Rust, bash |
-| Technology | Spark, Apache Airflow, Databricks, DBT, Postgres, DuckDB, Flask, GitHub |
-
 ### Currently Building
 
 - CLI tool named "bezos". Set for release under [61418](https://61418.io/) in late Q2 2026.
