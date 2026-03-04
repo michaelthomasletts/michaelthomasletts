@@ -8,7 +8,7 @@
 ### About
 
 - NYC
-- AWS Community Builder
+- Nominated [AWS Community Builder](https://builder.aws.com/community/@michaelthomasletts?tab=articles)
 - Senior Data Engineer with 8 YOE
 - Founder + Open-Source Maintainer at [61418](https://61418.io)
 - Authored [boto3-refresh-session](https://github.com/michaelthomasletts/boto3-refresh-session) and [boto3-client-cache](https://github.com/61418/boto3-client-cache)
