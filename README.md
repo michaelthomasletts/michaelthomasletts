@@ -1,6 +1,6 @@
 ### Links
 
-- [Personal Website](https://michaelthomasletts.com/)
+- [Personal website](https://michaelthomasletts.com/)
 - [PyPI](https://pypi.org/user/lettsmt/)
 - [LinkedIn](https://www.linkedin.com/in/lettsmichael/)
 - [61418 (official website)](https://61418.io)
