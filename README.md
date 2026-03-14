@@ -1,10 +1,10 @@
 ### Links
 
 - [Personal website](https://michaelthomasletts.com/)
-- [PyPI](https://pypi.org/user/lettsmt/)
+- [AWS Community Builder](https://builder.aws.com/community/michaelthomasletts)
 - [LinkedIn](https://www.linkedin.com/in/lettsmichael/)
-- [61418 (official website)](https://61418.io)
-- [61418 (official GitHub)](https://github.com/61418)
+- [61418 (Website)](https://61418.io)
+- [61418 (GitHub)](https://github.com/61418)
 
 ### About
 
