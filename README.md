@@ -13,7 +13,7 @@
 - Senior Data Engineer with 8 YOE
 - Founder + Open-Source Maintainer at [61418](https://61418.io)
 - Authored [boto3-refresh-session](https://github.com/61418/boto3-refresh-session) and [boto3-client-cache](https://github.com/61418/boto3-client-cache)
-- Living with [retinitis pigmentosa](https://en.wikipedia.org/wiki/Retinitis_pigmentosa)
+- Living with [retinitis pigmentosa](https://en.wikipedia.org/wiki/Retinitis_pigmentosa) 👨‍🦯
 
 ### Currently Building
 
