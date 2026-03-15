@@ -1,7 +1,7 @@
 ### Links
 
-- [Personal website](https://michaelthomasletts.com/)
-- [AWS Community Builder](https://builder.aws.com/community/michaelthomasletts)
+- [Personal Website](https://michaelthomasletts.com/)
+- [AWS Community Builders (Profile)](https://builder.aws.com/community/michaelthomasletts)
 - [LinkedIn](https://www.linkedin.com/in/lettsmichael/)
 - [61418 (Website)](https://61418.io)
 - [61418 (GitHub)](https://github.com/61418)
