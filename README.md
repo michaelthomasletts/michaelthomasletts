@@ -1,13 +1,6 @@
-### Links
-
-- [Personal Website](https://michaelthomasletts.com/)
-- [AWS Community Builders (Profile)](https://builder.aws.com/community/michaelthomasletts)
-- [LinkedIn](https://www.linkedin.com/in/lettsmichael/)
-- [61418 (Website)](https://61418.io)
-- [61418 (GitHub)](https://github.com/61418)
-
 ### About
 
+- [Linktree](https://linktr.ee/michaelthomasletts)
 - NYC
 - [AWS Community Builder](https://builder.aws.com/community/michaelthomasletts)
 - Senior Data Engineer with 8 YOE
