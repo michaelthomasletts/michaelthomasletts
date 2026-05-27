@@ -12,7 +12,7 @@
 
 ##### 2026
 
-- [elhaz](https://github.com/61418/elhaz) featured during [presentation at fwd:cloudsec North America 2026](https://pretalx.com/fwd-cloudsec-2026/talk/9LRLDS/)
+- [elhaz](https://github.com/61418/elhaz) featured during [presentation at fwd:cloudsec North America 2026](https://pretalx.com/fwd-cloudsec-2026/talk/9LRLDS/) (upcoming)
 - [elhaz](https://github.com/61418/elhaz) featured in [TL;DR Sec newsletter](https://tldrsec.com/p/tldr-sec-327)
 - [elhaz](https://github.com/61418/elhaz) featured in [EngSecLab's blog](https://engseclabs.com/blog/agent-credential-isolation/).
 
