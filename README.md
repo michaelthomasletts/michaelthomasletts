@@ -22,3 +22,10 @@
 - [boto3-refresh-session](https://github.com/61418/boto3-refresh-session) featured in [CloudSecList newsletter](https://cloudseclist.com/issues/issue-290/)
 - [boto3-refresh-session](https://github.com/61418/boto3-refresh-session) featured in [Dev Shorts](https://www.devshorts.in/p/dev-catch-up-67-claude-code-for-promax)
 - [boto3-refresh-session](https://github.com/61418/boto3-refresh-session) influenced the creation of the `aws configure mfa-login` command and introduction of the `aws_session_token` parameter for the `aws configure` command in [AWS CLI (v2.30.3)](https://github.com/aws/aws-cli/blob/5bffffcc1bd0aa0e73bdcc1cfe432b37563a58bb/CHANGELOG.rst?plain=1#L2081)
+
+# Links
+
+- [Personal website](https://michaelthomasletts.com)
+- [LinkedIn](https://www.linkedin.com/in/lettsmichael/)
+- [61418](https://61418.io)
+- [AWS Community Builder Profile](https://builder.aws.com/community/michaelthomasletts)
