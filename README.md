@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/michaelthomasletts/michaelthomasletts.github.io/refs/heads/main/static/images/header_transparent_backup.png">
+  <img src="https://raw.githubusercontent.com/michaelthomasletts/michaelthomasletts.github.io/refs/heads/main/static/images/header_transparent.png">
+</picture>
+
 # About
 
 - Located in Brooklyn, NY
