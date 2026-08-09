@@ -1,12 +1,3 @@
-# About
-
-- Located in Brooklyn, NY
-- Founder and Open Source Maintainer at [61418](https://61418.io/)
-- Author of [elhaz](https://github.com/61418/elhaz), [boto3-refresh-session](https://github.com/61418/boto3-refresh-session), and [boto3-client-cache](https://github.com/michaelthomasletts/boto3-client-cache)
-- Head maintainer for [aws-sso-util](https://github.com/61418/aws-sso-util)
-- [AWS Community Builder (Dev Tools)](https://builder.aws.com/community/michaelthomasletts)
-- Living with [retinitis pigmentosa](https://en.wikipedia.org/wiki/Retinitis_pigmentosa)
-
 # Press
 
 ### 2026
