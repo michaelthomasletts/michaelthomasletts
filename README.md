@@ -10,6 +10,14 @@
 
 **Tools:** Docker, GitHub
 
+# Projects
+
+Below are open source tools which I created.
+
+### [boto3-client-cache](https://github.com/61418/boto3-client-cache)
+### [boto3-refresh-session](https://github.com/61418/boto3-refresh-session)
+### [elhaz](https://github.com/61418/elhaz)
+
 # Press
 
 Below are public records of my open source projects being featured in industry newsletters, presented at conferences, influencing well-known tools, and more.
