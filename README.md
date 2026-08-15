@@ -1,3 +1,11 @@
+# Skills
+
+**Languages:** Python, SQL
+**Cloud:** AWS
+**Cloud Services:** CloudFormation, CloudWatch, CloudTrail, CodeBuild, CodeDeploy, CodePipeline, DynamoDB, EMR, EventBridge, Glue, IAM, Lambda, MWAA, QuickSight, RDS, Redshift, S3, Secrets Manager, SES, SQS, STS
+**Data Systems:** Airflow, Spark, Delta Lake, Databricks, dbt, Postgres, Snowflake
+**Tools:** Docker, GitHub
+
 # Press
 
 Below are public records of my open source projects being featured in industry newsletters, influencing well-known tools, and more.
