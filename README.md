@@ -1,3 +1,10 @@
+<p align="center">
+  <img 
+    src="https://www.michaelthomasletts.com/images/art/sun-social.png" 
+    alt="eye" 
+  />
+</p>
+
 # About
 
 My name's Michael Letts, but I prefer to be called Mike.
