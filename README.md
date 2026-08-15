@@ -14,15 +14,15 @@
 
 Below are open source tools which I created.
 
-### [boto3-client-cache](https://github.com/61418/boto3-client-cache)
-### [boto3-refresh-session](https://github.com/61418/boto3-refresh-session)
-### [elhaz](https://github.com/61418/elhaz)
+## [boto3-client-cache](https://github.com/61418/boto3-client-cache)
+## [boto3-refresh-session](https://github.com/61418/boto3-refresh-session)
+## [elhaz](https://github.com/61418/elhaz)
 
 # Press
 
 Below are public records of my open source projects being featured in industry newsletters, presented at conferences, influencing well-known tools, and more.
 
-### 2026
+## 2026
 
 - Ownership of [aws-sso-util](https://github.com/61418/aws-sso-util) transferred from [Ben Kehoe](https://github.com/benkehoe) to [61418](https://61418.io/) (my OSS organization)
 - [elhaz](https://github.com/61418/elhaz) [presented](https://youtu.be/15i9o08GHvw?si=sDhpLT0vUMDKESAt&t=789) at [fwd:cloudsec North America 2026 conference](https://fwdcloudsec.org/conference/north-america/)
@@ -30,7 +30,7 @@ Below are public records of my open source projects being featured in industry n
 - [elhaz](https://github.com/61418/elhaz) featured in [AWS Security Digest](https://awssecuritydigest.com/past-issues/aws-security-digest-260)
 - [elhaz](https://github.com/61418/elhaz) featured in [EngSecLab's blog](https://engseclabs.com/blog/agent-credential-isolation/)
 
-### 2025
+## 2025
 
 - [boto3-refresh-session](https://github.com/61418/boto3-refresh-session) featured in [TL;DR Sec newsletter](https://tldrsec.com/p/tldr-sec-282)
 - [boto3-refresh-session](https://github.com/61418/boto3-refresh-session) featured in [CloudSecList newsletter](https://cloudseclist.com/issues/issue-290/)
