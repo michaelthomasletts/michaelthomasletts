@@ -1,5 +1,7 @@
 # Press
 
+Below are public records of my open source projects being featured in industry newsletters, influencing well-known tools, and more.
+
 ### 2026
 
 - Ownership of [aws-sso-util](https://github.com/61418/aws-sso-util) transferred from [Ben Kehoe](https://github.com/benkehoe) to [61418](https://61418.io/) (my OSS organization)
