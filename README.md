@@ -24,7 +24,7 @@ Open source tools which I created have been adopted by teams all around the worl
 - Core dependency for [elhaz](https://github.com/61418/elhaz)
 - Featured in [TL;DR Sec](https://tldrsec.com/p/tldr-sec-282), [CloudSecList](https://cloudseclist.com/issues/issue-290/), and [Dev Shorts](https://www.devshorts.in/p/dev-catch-up-67-claude-code-for-promax)
 - Influenced the creation of the `aws configure mfa-login` command and `aws_session_token` parameter for the `aws configure` command in [AWS CLI (v2.30.3)](https://github.com/aws/aws-cli/blob/5bffffcc1bd0aa0e73bdcc1cfe432b37563a58bb/CHANGELOG.rst?plain=1#L2081)
-- - [Official documentation](https://61418.io/boto3-refresh-session/)
+- [Official documentation](https://61418.io/boto3-refresh-session/)
 
 ## [elhaz](https://github.com/61418/elhaz)
 - 11.8K total downloads on PyPI
