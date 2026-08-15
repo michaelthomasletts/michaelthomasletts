@@ -12,7 +12,7 @@
 
 # Press
 
-Below are public records of my open source projects being featured in industry newsletters, influencing well-known tools, and more.
+Below are public records of my open source projects being featured in industry newsletters, presented at conferences, influencing well-known tools, and more.
 
 ### 2026
 
