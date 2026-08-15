@@ -12,7 +12,7 @@
 
 # Projects
 
-Open source tools which I created have been adopted by teams all around the world, featured in industry leading newsletters, presented at conferences, influenced the introduction of new features in the AWS CLI, and helped me become an AWS Community Builder. These tools enhance botocore, boto3, the AWS CLI, and the general open source AWS Python ecosystem. These tools leverage modern Python tools like uv and Furo. The official documentation for these tools is comprehensive, thoughtful, and beautiful. More, the API's for these tools are deliberately designed to be highly intuitive and ergonomic. The following PyPI download statistics are updated daily at approximately 9 AM EST.
+Open source tools which I created have been adopted by teams all around the world, featured in industry leading newsletters, presented at conferences, influenced the introduction of new features in the AWS CLI, and helped me become an AWS Community Builder. These tools enhance botocore, boto3, the AWS CLI, and the general open source AWS Python ecosystem. These tools leverage modern Python tools like uv and Furo. The official documentation for these tools are comprehensive, thoughtful, and beautiful. More, the API's for these tools are deliberately designed to be highly intuitive and ergonomic. The following PyPI download statistics are updated daily at approximately 9 AM EST.
 
 ## [boto3-client-cache](https://github.com/61418/boto3-client-cache)
 - 53.9K total downloads on PyPI
