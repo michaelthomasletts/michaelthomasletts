@@ -1,9 +1,13 @@
 # Skills
 
 **Languages:** Python, SQL
+
 **Cloud:** AWS
+
 **Cloud Services:** CloudFormation, CloudWatch, CloudTrail, CodeBuild, CodeDeploy, CodePipeline, DynamoDB, EMR, EventBridge, Glue, IAM, Lambda, MWAA, QuickSight, RDS, Redshift, S3, Secrets Manager, SES, SQS, STS
+
 **Data Systems:** Airflow, Spark, Delta Lake, Databricks, dbt, Postgres, Snowflake
+
 **Tools:** Docker, GitHub
 
 # Press
