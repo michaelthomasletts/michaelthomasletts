@@ -8,18 +8,6 @@ To learn more about my professional experience and skills, see my [LinkedIn](htt
 
 For a concrete look at my work, or to understand its impact, see my [public achievements](/#press) below or browse through my open source organization's [repositories](https://github.com/61418).
 
-# Skills
-
-**Languages:** Python, SQL
-
-**Cloud:** AWS
-
-**Cloud Services:** CloudFormation, CloudWatch, CloudTrail, CodeBuild, CodeDeploy, CodePipeline, DynamoDB, EMR, EventBridge, Glue, IAM, Lambda, MWAA, QuickSight, RDS, Redshift, S3, Secrets Manager, SES, SQS, STS
-
-**Data Systems:** Airflow, Spark, Delta Lake, Databricks, dbt, Postgres, Snowflake
-
-**Tools:** Docker, GitHub
-
 # Projects
 
 Open source tools which I created have been adopted by teams all around the world, featured in industry leading newsletters, presented at conferences, influenced the introduction of new features in the AWS CLI, and helped me become an AWS Community Builder. These tools enhance botocore, boto3, the AWS CLI, and the general open source AWS Python ecosystem. They leverage modern Python tools like uv and Furo. The official documentation are comprehensive, thoughtful, and beautiful. And the API's are deliberately designed to be highly intuitive and ergonomic. The following PyPI download statistics are updated daily at approximately 9 AM EST.
