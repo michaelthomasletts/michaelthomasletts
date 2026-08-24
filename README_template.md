@@ -6,7 +6,7 @@ Outside of work, I'm an open source software maintainer in the AWS cloud securit
 
 To learn more about my professional experience and skills, see my [LinkedIn](https://www.linkedin.com/in/lettsmichael/) or [request](https://michaelthomasletts.com/contact) a copy of my CV.
 
-For a concrete look at my work, or to understand its impact, see my [public achievements](/#press) below or browse through my open source organization's [repositories](https://github.com/61418).
+For a concrete look at my work, or to understand its impact, see my [public achievements](#projects) below or browse through my open source organization's [repositories](https://github.com/61418).
 
 # Projects
 
