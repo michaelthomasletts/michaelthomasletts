@@ -1,24 +1,12 @@
 # About
 
-My name's Michael Letts, but I prefer to be called Mike.
+I'm a Brooklyn, New York based software engineer whose professional background is in big data. 
 
-I'm a Brooklyn, New York based software engineer with a background in big data, open source software maintainer in the AWS cloud security space, founder of an open source software organization named [61418](https://61418.io/), [AWS Community Builder](https://builder.aws.com/community/michaelthomasletts), and [blogger](https://michaelthomasletts.com/blog/). I also happen to live with a visual disability called [retinitis pigmentosa](https://en.wikipedia.org/wiki/Retinitis_pigmentosa).
+Outside of work, I'm an open source software maintainer in the AWS cloud security space, founder of an open source software organization named [61418](https://61418.io/), [AWS Community Builder](https://builder.aws.com/community/michaelthomasletts), creator of [boto3-refresh-session](https://61418.io/boto3-refresh-session/), [boto3-client-cache](https://61418.io/boto3-client-cache/), and [elhaz](https://61418.io/elhaz/), and head maintainer of [aws-sso-util](https://github.com/61418/aws-sso-util).
 
-To learn more about my professional experience and skills, see my [LinkedIn](https://www.linkedin.com/in/lettsmichael/) or [request](https://michaelthomasletts.com/contact/) a copy of my CV. You may also want to check out my [technical blog](https://michaelthomasletts.com/blog/technical/).
+To learn more about my professional experience and skills, see my [LinkedIn](https://www.linkedin.com/in/lettsmichael/) or [request](/contact) a copy of my CV.
 
-For a more concrete look at my work, or to understand its impact, see my [public achievements](#projects) below or browse through my organization's [repositories](https://github.com/61418).
-
-# Skills
-
-**Languages:** Python, SQL
-
-**Cloud:** AWS
-
-**Cloud Services:** CloudFormation, CloudWatch, CloudTrail, CodeBuild, CodeDeploy, CodePipeline, DynamoDB, EMR, EventBridge, Glue, IAM, Lambda, MWAA, QuickSight, RDS, Redshift, S3, Secrets Manager, SES, SQS, STS
-
-**Data Systems:** Airflow, Spark, Delta Lake, Databricks, dbt, Postgres, Snowflake
-
-**Tools:** Docker, GitHub
+For a concrete look at my work, or to understand its impact, see my [public achievements](/#press) below or browse through my open source organization's [repositories](https://github.com/61418).
 
 # Projects
 
