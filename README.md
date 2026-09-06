@@ -13,7 +13,7 @@ For a concrete look at my work, or to understand its impact, see my [public achi
 Open source tools which I created have been adopted by teams all around the world, featured in industry leading newsletters, presented at conferences, influenced the introduction of new features in the AWS CLI, and helped me become an AWS Community Builder. These tools enhance botocore, boto3, the AWS CLI, and the general open source AWS Python ecosystem. They leverage modern Python tools like uv and Furo. The official documentation are comprehensive, thoughtful, and beautiful. And the API's are deliberately designed to be highly intuitive and ergonomic. The following PyPI download statistics are updated daily at approximately 9 AM EST.
 
 ## [boto3-client-cache](https://github.com/61418/boto3-client-cache)
-- 74.9K total downloads on PyPI
+- 75.0K total downloads on PyPI
 - Core dependency for [boto3-refresh-session](https://github.com/61418/boto3-refresh-session)
 - [Official documentation](https://61418.io/boto3-client-cache/)
 
